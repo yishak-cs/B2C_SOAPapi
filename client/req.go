@@ -1,4 +1,4 @@
-package client
+package main
 
 import (
 	"bytes"
@@ -72,7 +72,7 @@ type Response struct {
 	ServiceStatus            string   `xml:"ServiceStatus"`
 }
 
-func StartClient() {
+func main() {
 	request := createRequest()
 	response, err := sendRequest("http://localhost:8080/b2c", request)
 	if err != nil {

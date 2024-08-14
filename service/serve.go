@@ -1,4 +1,4 @@
-package service
+package main
 
 import (
 	"encoding/xml"
@@ -66,7 +66,7 @@ type Response struct {
 	ServiceStatus            string   `xml:"ServiceStatus"`
 }
 
-func StartService() {
+func main() {
 	http.HandleFunc("/b2c", handleB2CRequest)
 	log.Println("Starting server on :8080")
 	log.Fatal(http.ListenAndServe(":8080", nil))
