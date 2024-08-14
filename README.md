@@ -9,6 +9,7 @@ hypothetical scenario like withdrawing money from a betting account through an a
 further improvements are to be done.
 
 ## to run the program
+this is a basic console app
 ### step 1
 clone the repo 
 ```bash
