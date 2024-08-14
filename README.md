@@ -13,7 +13,7 @@ this is a basic console app
 ### step 1
 clone the repo 
 ```bash
-git clone https://github.com/yishak-cs/Interners.git
+git clone https://github.com/yishak-cs/B2C_SOAPapi.git
 cd B2C_SOAPapi
 ```
 ### Step 2
