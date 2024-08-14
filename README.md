@@ -1,6 +1,6 @@
 ## SOAP API Money Transfer Demo
 This is a simple demo of whats i thought is described in the B2C document.
-hypothetical like a scenario of withdrawing money from a betting account through an agent. the withdrawee shows the successfull response and the agent gives him money.
+hypothetical scenario like withdrawing money from a betting account through an agent. the withdrawee shows the successfull response (like a voucher) and the agent gives him money.
 
 1) **client.go**: Contains the client-side code that constructs a SOAP request, sends it to the server, and handles the response.
    
