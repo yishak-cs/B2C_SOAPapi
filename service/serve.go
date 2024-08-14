@@ -84,6 +84,9 @@ func handleB2CRequest(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	// Process the request like validate the request then perform actual transaction
+	// since its for demo nothing is done here
+
 	log.Printf("Received request:\n%s\n", string(body))
 
 	var requestMsg RequestMsg
